@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import ArticlePage from "./pages/ArticlePage";
 import CategoryPage from "./pages/CategoryPage";
 import ContactPage from "./pages/ContactPage";
+import PeacockVarietyPage from "./pages/PeacockVarietyPage";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/article/:slug" element={<ArticlePage />} />
           <Route path="/category/:category" element={<CategoryPage />} />
+          
+          {/* Peacock variety routes */}
+          <Route path="/pavoes/:variety" element={<PeacockVarietyPage />} />
           
           {/* Direct article routes */}
           <Route path="/quintal-pavos" element={<ArticlePage />} />

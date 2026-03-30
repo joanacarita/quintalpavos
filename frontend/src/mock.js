@@ -65,23 +65,42 @@ export const newsArticles = [
 export const menuItems = [
   { label: "HOME", link: "/" },
   { label: "QUINTAL PAVOS", link: "/quintal-pavos" },
-  { label: "NEWS / NOVIDADES", link: "/news" },
+  { label: "NEWS / NOVIDADES", link: "/novidades" },
   { 
     label: "PAVÕES", 
     link: "/pavoes",
     submenu: [
-      { label: "India Blue | Azul", link: "/pavoes/india-blue" },
-      { label: "Prussian Blue", link: "/pavoes/prussian-blue" },
-      { label: "Violet | Violeta", link: "/pavoes/violet" },
-      { label: "Spalding White | Branco Spalding", link: "/pavoes/spalding-white" }
+      { label: "Black Shoulder Pied White-Eyed | Asa Negra Arlequim White-eyed", link: "/pavoes/black-shoulder-pied-white-eyed" },
+      { label: "Buford Bronze | Bronze", link: "/pavoes/buford-bronze" },
+      { label: "Bronze White-Eyed", link: "/pavoes/bronze-white-eyed" },
+      { label: "Cameo White-Eyed | Cameo de Olhos Brancos", link: "/pavoes/cameo-white-eyed" },
+      { label: "Cameo Silver Pied | Cameo Arlequim Prateado", link: "/pavoes/cameo-silver-pied" },
+      { label: "Cameo Pied White-Eyed | Cameo Arlequim White-eyed", link: "/pavoes/cameo-pied-white-eyed" },
+      { label: "Cameo Black Shoulder Pied White-Eyed", link: "/pavoes/cameo-black-shoulder-pied-white-eyed" },
+      { label: "Cameo Black Shoulder Silver Pied", link: "/pavoes/cameo-black-shoulder-silver-pied" },
+      { label: "Dark Silver Pied | Arlequim Prateado Escuro", link: "/pavoes/dark-silver-pied" },
+      { label: "India Blue | Azul", link: "/india-blue-azul" },
+      { label: "India Blue Pied White-Eyed | Arlequim White-eyed", link: "/pavoes/india-blue-pied-white-eyed" },
+      { label: "India Blue Silver Pied | Arlequim Prateado", link: "/pavoes/india-blue-silver-pied" },
+      { label: "White Peafowl | Pavão Branco", link: "/pavoes/white-peafowl" },
+      { label: "Opal | Cinzento", link: "/pavoes/opal" },
+      { label: "Opal White-Eyed | Cinzento white-eyed", link: "/pavoes/opal-white-eyed" },
+      { label: "Opal Silver Pied | Cinzento Arlequim Prateado", link: "/pavoes/opal-silver-pied" },
+      { label: "Prussian Blue | Azul da Prússia", link: "/prussian-blue-azul-da-prussia" },
+      { label: "Prussian Blue Black Shoulder", link: "/pavoes/prussian-blue-black-shoulder" },
+      { label: "Raw Umber", link: "/pavoes/raw-umber" },
+      { label: "Raw Umber Black Shoulder", link: "/pavoes/raw-umber-black-shoulder" },
+      { label: "Spalding Pied | Spalding Arlequim", link: "/pavoes/spalding-pied" },
+      { label: "Spalding Silver Pied", link: "/pavoes/spalding-silver-pied" },
+      { label: "Spalding White | Branco Spalding", link: "/pavoes/spalding-white" },
+      { label: "Violet | Violeta", link: "/pavoes/violet" }
     ]
   },
   { 
     label: "GALINHAS", 
     link: "/galinhas",
     submenu: [
-      { label: "Chickens / Galinhas", link: "/galinhas/chickens" },
-      { label: "Destaques", link: "/galinhas/destaques" }
+      { label: "Fénix Branco", link: "/fenix-branco" }
     ]
   },
   { label: "PERUS", link: "/perus" },
@@ -89,8 +108,7 @@ export const menuItems = [
     label: "CISNES", 
     link: "/cisnes",
     submenu: [
-      { label: "Swans / Cisnes", link: "/cisnes/swans" },
-      { label: "Cisne-de-pescoço-preto", link: "/cisnes/pescoco-preto" }
+      { label: "Cisne-de-pescoço-preto", link: "/cisne-de-pescoco-preto" }
     ]
   },
   { label: "ARTIGOS", link: "/artigos" },
