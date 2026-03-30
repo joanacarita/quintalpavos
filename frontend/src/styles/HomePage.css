@@ -1,5 +1,35 @@
 /* QuintalPavos Homepage Styles */
 
+/* Loading Styles */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #d4885c 0%, #c17a52 50%, #b86d44 100%);
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loading-container p {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Georgia', serif;
+}
+
 .quintal-pavos {
   min-height: 100vh;
   position: relative;
