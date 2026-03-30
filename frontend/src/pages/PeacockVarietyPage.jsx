@@ -144,16 +144,20 @@ const peacockVarieties = {
     content: '<h2>Cameo Black Shoulder Pied White-Eyed</h2><p>Cameo variety featuring black shoulder, pied pattern, and white eyes.</p>'
   },
   'cameo-black-shoulder-silver-pied': {
-    title: 'Cameo Black Shoulder Silver Pied',
-    content: '<h2>Cameo Black Shoulder Silver Pied</h2><p>Cameo peacock with black shoulder and silver pied markings.</p>'
-  },
-  'dark-silver-pied': {
-    title: 'Dark Silver Pied | Arlequim Prateado Escuro',
-    content: '<h2>Dark Silver Pied</h2><p>A striking peacock variety with dark silver pied coloration.</p>'
+    title: 'Cameo Black Shoulder Silver Pied | Cameo Asa Negra Arlequim Prateado',
+    content: `
+      <h2>Cameo Black Shoulder Silver Pied</h2>
+      <p>Under construction / Em construção</p>
+      <p>Esta variedade combina o padrão Cameo com asa negra e arlequim prateado. Para mais informações, entre em contacto connosco.</p>
+    `
   },
   'india-blue-pied-white-eyed': {
     title: 'India Blue Pied White-Eyed | Arlequim White-eyed',
-    content: '<h2>India Blue Pied White-Eyed</h2><p>Classic India Blue peacock with pied pattern and white eyes.</p>'
+    content: `
+      <h2>India Blue Pied White-Eyed</h2>
+      <p>Under construction / Em construção</p>
+      <p>Classic India Blue peacock with pied pattern and white eyes. Esta variedade está em desenvolvimento no Quintal Pavos.</p>
+    `
   },
   'india-blue-silver-pied': {
     title: 'India Blue Silver Pied | Arlequim Prateado',
