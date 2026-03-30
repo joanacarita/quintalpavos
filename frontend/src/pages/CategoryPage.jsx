@@ -31,11 +31,56 @@ const categoryArticles = {
       slug: 'cisne-de-pescoco-preto'
     }
   ],
-  'news': newsArticles.map(article => ({
-    ...article,
-    slug: 'news-novidades',
-    description: article.title
-  }))
+  'galinhas': [
+    {
+      id: '1',
+      title: 'Fénix Branco',
+      description: 'Variedade anã conhecida por Fénix Moderno Alemão',
+      image: 'https://images.unsplash.com/photo-1592849151221-89a0966b8a37',
+      slug: 'fenix-branco'
+    }
+  ],
+  'news': [
+    {
+      id: '1',
+      title: 'News / Novidades',
+      description: 'Latest updates and available birds',
+      image: 'https://images.unsplash.com/photo-1559048958-4d1a3dc247d1',
+      slug: 'novidades'
+    },
+    {
+      id: '2',
+      title: 'Cisne-de-pescoço-preto',
+      description: 'Information about black-necked swans',
+      image: 'https://images.unsplash.com/photo-1727586198137-3932d7deef01',
+      slug: 'cisne-de-pescoco-preto'
+    },
+    {
+      id: '3',
+      title: 'Fénix Branco',
+      description: 'White Phoenix variety information',
+      image: 'https://images.unsplash.com/photo-1592849151221-89a0966b8a37',
+      slug: 'fenix-branco'
+    }
+  ],
+  'perus': [
+    {
+      id: '1',
+      title: 'Perus / Turkeys',
+      description: 'Information about turkey varieties',
+      image: 'https://images.unsplash.com/photo-1588597989061-b60ad0eefdbf',
+      slug: 'quintal-pavos'
+    }
+  ],
+  'destaques': [
+    {
+      id: '1',
+      title: 'Destaques',
+      description: 'Featured birds and highlights',
+      image: 'https://images.unsplash.com/photo-1559048958-4d1a3dc247d1',
+      slug: 'novidades'
+    }
+  ]
 };
 
 const categoryInfo = {
@@ -47,16 +92,30 @@ const categoryInfo = {
     title: 'Cisnes',
     description: 'Elegant swan species in our collection'
   },
+  'galinhas': {
+    title: 'Galinhas',
+    description: 'Various chicken breeds and varieties'
+  },
   'news': {
     title: 'Novidades',
     description: 'Latest news and updates from Quintal Pavos'
+  },
+  'perus': {
+    title: 'Perus',
+    description: 'Turkey varieties information'
+  },
+  'destaques': {
+    title: 'Destaques',
+    description: 'Featured birds and highlights from Quintal Pavos'
   }
 };
 
 const CategoryPage = () => {
   const { category } = useParams();
-  const articles = categoryArticles[category] || [];
-  const info = categoryInfo[category] || { title: 'Category', description: '' };
+  const location = window.location.pathname.replace('/', '');
+  const categorySlug = category || location || 'pavoes';
+  const articles = categoryArticles[categorySlug] || [];
+  const info = categoryInfo[categorySlug] || { title: 'Category', description: '' };
 
   return (
     <div className="quintal-pavos">

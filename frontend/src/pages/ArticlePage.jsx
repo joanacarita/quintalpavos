@@ -154,46 +154,83 @@ const articleContent = {
       <p>É com muita satisfação que o Quintalpavos em colaboração aberta com todos os seus amigos continuamos a fazer o nosso trabalho, de criação e preservação das distintas variedades de pavões.</p>
     `
   },
-  'india-blue-azul': {
-    title: 'India Blue | Azul',
-    image: 'https://images.pexels.com/photos/7085764/pexels-photo-7085764.jpeg',
+  'fenix-branco': {
+    title: 'Fénix Branco',
+    image: 'https://images.unsplash.com/photo-1592849151221-89a0966b8a37',
     content: `
-      <h2>India Blue</h2>
+      <h2>Fénix Branco</h2>
       
-      <p>Native to India, the India Blue Peafowl is, without doubt, the most widespread and known Peafowl in the world. This is also true in the wild.</p>
+      <p>Disponíveis casais de fènix branco de 2019.</p>
       
-      <p>Throughout time, the India Blue Peafowl have undergone several mutations responsible for the appearance of colors and patterns distinct from those of the wild type lineage (Blue Peafowl).</p>
+      <p>A variedade de Fénix Branco que criamos é também conhecida por Fénix Moderno Alemão, por serem aves que ao longo dos últimos anos tem sido seleccionadas e melhoradas por criadores alemães. Trata-se de uma variedade anã em que os machos pesam de 800 gr a 900 gr e as fêmeas 600 gr a 800 gr. Uma das principais características destas aves é a de os machos terem as penas da cauda muito compridas, finas e estreitas. A plumagem do galo e da galinha é completamente branca.</p>
       
-      <p>In genetics and biology, a mutation is a change or modification on the genetic information (genotype) of a living being, which will then produce a sudden and spontaneous change of the characteristics, which can be transmitted or inherited to the offspring.</p>
+      <p>Informação mais detalhada sobre o padrão desta raça, e que nos serve como referência no trabalho de selecção e melhoramente da raça, encontra-se no livro "Gallinas Enanas de Raza" do autor Amadeu Francesch Vidal, Publicações Arte Avícola, Espanha</p>
+    `
+  },
+  'novidades': {
+    title: 'News / Novidades',
+    image: 'https://images.unsplash.com/photo-1559048958-4d1a3dc247d1',
+    content: `
+      <h2>News</h2>
       
-      <p>This is also one of the natural processes that throughout time have been responsible by species evolution and diversification. The mutations that have appeared in Peafowl have been kept and shaped by experienced breeders and consequently nowadays there are a wide diversity of colors and patterns within the <em>Pavo cristatus</em> species.</p>
-      
-      <p>The vast majority of the mutations are recessive which explains in part, why the dominant phenotypes predominate in the wild. Relatively to Peafowl mutations, there are two dominant phenotypes, the India Blue Peafowl and the Green Peafowl, the two species that exist in the wild (wild lineages). The characteristics of these two phenotypes are the result of a long evolution process which gave them a perfect adaptation to its natural habitat, basically an attractive plumage for courtship and at the same time a camouflage to avoid the predators.</p>
-      
-      <p>A White Peafowl in its natural habitat is easily detected by predators and has also a very small probability of encountering another Peafowl of the same color to mate with and perpetuate its mutant genes responsible by the white color. These are some of the reasons why one cannot find Peafowl mutations in the wild.</p>
-      
-      <p>The distinct Peafowl mutations created in captivity are therefore not a product of genetic manipulation, but instead the result of a natural phenomenon to which man has been attentive. A guided work of selection and crossing has been the key for preservation and sometimes discovery of Peafowl with distinct colors and patterns from those of the wild lineage.</p>
-      
-      <p>In Quintalpavos, the vast majority of our India Blue Peafowl carry other colors, which genetically speaking means they are heterozygotic, that is to say they potentiate the birth of Peafowl with distinct colors from its progenitors.</p>
+      <p><strong>Available:</strong></p>
+      <ul>
+        <li>Couple Cameo Black Shoulder White-eye</li>
+        <li>Couple Prussian Blue Black Shoulder</li>
+        <li>Female Purple</li>
+        <li>Male India Blue Black Shoulder Pied White-eye</li>
+      </ul>
       
       <hr>
       
-      <h2>Pavão Azul</h2>
+      <h2>Novidades</h2>
       
-      <p>O Pavão Azul é sem dúvida, o pavão mais difundido e conhecido no mundo, tanto no estado selvagem como em cativeiro.</p>
+      <p><strong>Temos disponíveis:</strong></p>
+      <ul>
+        <li>Casal Cameo Asa Negra White-eye de 2022</li>
+        <li>Casal Azul da Prussia Asa Negra de 2022</li>
+        <li>Fêmea Purpura de 2022</li>
+        <li>Macho Azul Asa Negra Arlequim White-eye de 2022</li>
+      </ul>
       
-      <p>Ao longo do tempo, o pavão azul sofreu várias mutações responsáveis pelo aparecimento de cores e padrões distintos da estirpe selvagem.</p>
+      <h3>Prussian Blue Blackshoulder</h3>
       
-      <p>Em genética e biologia, uma mutação é uma alteração ou modificação na informação genética (genótipo) de um ser vivo, que produzirá então uma mudança súbita e espontânea das características, que podem ser transmitidas ou herdadas pela descendência.</p>
+      <p>Available two adult male Prussian Blue Black Shoulder.</p>
       
-      <p>No Quintal Pavos, a grande maioria dos nossos Pavões Azuis são portadores de outras cores, o que, geneticamente falando, significa que elas são heterozigóticas, isto é, eles potenciam o nascimento de Pavões com cores distintas de seus progenitores.</p>
+      <p>Disponíveis dois machos aduldos Azuis de Prussia Asa Negra.</p>
+    `
+  },
+  'artigos': {
+    title: 'Artigos',
+    image: 'https://images.unsplash.com/photo-1559048958-4d1a3dc247d1',
+    content: `
+      <h2>Artigos / Articles</h2>
+      
+      <p>Publicações e documentos sobre criação de pavões:</p>
+      
+      <ul>
+        <li>Arte Avicola – en busca del pavo real purpura arlequin (.pdf)</li>
+        <li>Arte Avicola – la cria de los pavos reales- la reproduccion (.pdf)</li>
+        <li>Arte Avicola – la cría de los pavos reales (i) un mundo por descubrir (.pdf)</li>
+        <li>Arte Avicola – la cría de los pavos reales (ii) las instalaciones (.pdf)</li>
+        <li>Arte Avicola – preocupacion por la salud de nuestros animales (.pdf)</li>
+        <li>Arte Avicola – la alimentación en la cría de los pavos reales (.pdf)</li>
+        <li>Aviornis Internacional – Pavo real Arlequín plateado (.pdf)</li>
+        <li>Aviornis Internacional – pavo real raw umber (.pdf)</li>
+        <li>Meleagris ocellata (.pdf)</li>
+        <li>Prussian Blue Peafowl (.pdf)</li>
+      </ul>
+      
+      <p>Para acesso aos artigos completos, entre em contacto connosco.</p>
     `
   }
 };
 
 const ArticlePage = () => {
   const { slug } = useParams();
-  const article = articleContent[slug] || articleContent['quintal-pavos'];
+  const location = window.location.pathname.replace('/', '');
+  const articleSlug = slug || location || 'quintal-pavos';
+  const article = articleContent[articleSlug] || articleContent['quintal-pavos'];
 
   return (
     <div className="quintal-pavos">
