@@ -119,12 +119,12 @@ export const footerPavoes = [
   { 
     title: "Violet | Violeta",
     image: "https://images.pexels.com/photos/5399945/pexels-photo-5399945.jpeg",
-    link: "/pavoes"
+    link: "/pavoes/violet"
   },
   { 
     title: "Spalding White | Branco Spalding",
     image: "https://images.unsplash.com/photo-1592849151221-89a0966b8a37",
-    link: "/pavoes"
+    link: "/pavoes/spalding-white"
   }
 ];
 
