@@ -1,0 +1,106 @@
+/* Category Page Styles */
+
+.category-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  background: #f8f8f8;
+}
+
+.category-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.category-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin: 0 0 15px 0;
+  font-family: 'Georgia', serif;
+}
+
+.category-description {
+  font-size: 18px;
+  color: #666;
+  margin: 0;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.category-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.category-card-image-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.category-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.category-card:hover .category-card-image {
+  transform: scale(1.1);
+}
+
+.category-card-content {
+  padding: 25px;
+}
+
+.category-card-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin: 0 0 10px 0;
+  font-family: 'Georgia', serif;
+}
+
+.category-card-description {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.category-navigation {
+  text-align: center;
+  padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .category-page {
+    padding: 40px 20px;
+  }
+
+  .category-title {
+    font-size: 32px;
+  }
+
+  .category-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

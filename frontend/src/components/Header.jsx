@@ -1,11 +1,13 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { ChevronDown } from 'lucide-react';
 
-const Header = ({ menuItems, onMenuClick }) => {
+const Header = ({ menuItems }) => {
   const [openDropdown, setOpenDropdown] = React.useState(null);
+  const navigate = useNavigate();
 
-  const toggleDropdown = (label) => {
-    setOpenDropdown(openDropdown === label ? null : label);
+  const handleNavClick = (link) => {
+    navigate(link);
   };
 
   return (
@@ -19,8 +21,10 @@ const Header = ({ menuItems, onMenuClick }) => {
             </svg>
           </div>
           <div className="logo-text">
-            <h1 className="site-title">Quintal Pavos</h1>
-            <p className="site-tagline">o prazer de criar</p>
+            <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <h1 className="site-title">Quintal Pavos</h1>
+              <p className="site-tagline">o prazer de criar</p>
+            </Link>
           </div>
           <div className="peacock-feather">
             <img 
@@ -44,7 +48,7 @@ const Header = ({ menuItems, onMenuClick }) => {
             >
               <button
                 className="nav-link"
-                onClick={() => onMenuClick(item.link)}
+                onClick={() => handleNavClick(item.link)}
               >
                 {item.label}
                 {item.submenu && <ChevronDown className="dropdown-icon" size={16} />}
@@ -55,7 +59,7 @@ const Header = ({ menuItems, onMenuClick }) => {
                     <li key={subIndex}>
                       <button
                         className="dropdown-link"
-                        onClick={() => onMenuClick(subItem.link)}
+                        onClick={() => handleNavClick(subItem.link)}
                       >
                         {subItem.label}
                       </button>

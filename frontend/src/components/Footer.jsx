@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = ({ pavoes, links, contact }) => {
   return (
@@ -10,7 +11,7 @@ const Footer = ({ pavoes, links, contact }) => {
             {pavoes.map((item, index) => (
               <div key={index} className="footer-pavoes-item">
                 <img src={item.image} alt={item.title} className="footer-pavoes-image" />
-                <a href={item.link} className="footer-pavoes-link">{item.title}</a>
+                <Link to={item.link} className="footer-pavoes-link">{item.title}</Link>
               </div>
             ))}
           </div>
@@ -21,7 +22,7 @@ const Footer = ({ pavoes, links, contact }) => {
           <ul className="footer-links">
             {links.avesQuintalPavos.map((link, index) => (
               <li key={index}>
-                <a href={link.link} className="footer-link">{link.label}</a>
+                <Link to={link.link} className="footer-link">{link.label}</Link>
               </li>
             ))}
           </ul>
